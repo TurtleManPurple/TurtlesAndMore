@@ -1,5 +1,7 @@
 # TurtlesAndMore
-The TurtlesAndMore (TurMo) mod!
+This mod adds a vast amount of turtle related items and blocks! Thank you to Mcreator and Goldorion, _Spectrall, and NerdyPuzzle's AMAZING Fabric Generator for making this possible, iD Tech camps for the original version and El LaVerdiere
+
+---
 
 # 📜 Quick License Guide
 
