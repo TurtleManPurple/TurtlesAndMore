@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "ada"
+  ],
+  "key": {
+    "a": "turmo:kyber_crystal",
+    "b": "turmo:lightsaber_blade",
+    "c": "turmo:lightsaber_handle",
+    "d": "turmo:lightsaber_hilt"
+  },
+  "result": {
+    "id": "turmo:lightsaber",
+    "count": 1
+  }
+}

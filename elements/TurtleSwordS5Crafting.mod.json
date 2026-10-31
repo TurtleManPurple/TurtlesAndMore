@@ -1,0 +1,29 @@
+{
+  "_fv": 91,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:TurtleIngot",
+      "CUSTOM:TurtleShard",
+      "CUSTOM:TurtleIngot",
+      "CUSTOM:TurtleIngot",
+      "CUSTOM:TurtleSwordStage4",
+      "CUSTOM:TurtleIngot",
+      "CUSTOM:TurtleIngot",
+      "CUSTOM:TurtleStick",
+      "CUSTOM:TurtleIngot"
+    ],
+    "recipeReturnStack": "CUSTOM:TurtleSword",
+    "name": "turtle_sword_s_5_crafting",
+    "namespace": "mod"
+  }
+}

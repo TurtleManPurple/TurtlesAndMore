@@ -1,0 +1,29 @@
+{
+  "_fv": 91,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "Blocks.STAINED_GLASS_PANE#5",
+      "CUSTOM:KyberCrystal",
+      "Blocks.STAINED_GLASS_PANE#5",
+      "Blocks.STAINED_GLASS_PANE#5",
+      "CUSTOM:KyberCrystal",
+      "Blocks.STAINED_GLASS_PANE#5",
+      "Blocks.STAINED_GLASS_PANE#5",
+      "CUSTOM:KyberCrystal",
+      "Blocks.STAINED_GLASS_PANE#5"
+    ],
+    "recipeReturnStack": "CUSTOM:LightsaberBlade",
+    "name": "lightsaber_blade_crafting",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,1225 @@
+{
+  "mod_elements": [
+    {
+      "name": "TurtleIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turtle_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/turmo/models/item/turtle_ingot.json",
+          "src/main/java/com/turtlemanpurple/turtlesandmore/item/TurtleIngotItem.java",
+          "src/main/resources/assets/turmo/items/turtle_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "RawTurtleOre",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_turtle_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/turmo/items/raw_turtle_ore.json",
+          "src/main/java/com/turtlemanpurple/turtlesandmore/item/RawTurtleOreItem.java",
+          "src/main/resources/assets/turmo/models/item/raw_turtle_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "RawTurtleOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_turtle_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/turmo/recipe/raw_turtle_ore_smelting.json",
+          "src/main/resources/data/turmo/advancement/recipes/raw_turtle_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "TurtleShield",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turtle_shield",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/turmo/models/item/turtle_shield_blocking.json",
+          "src/main/java/com/turtlemanpurple/turtlesandmore/item/TurtleShieldItem.java",
+          "src/main/resources/assets/turmo/models/item/turtle_shield.json",
+          "src/main/resources/assets/turmo/items/turtle_shield.json"
+        ]
+      }
+    },
+    {
+      "name": "TestMob",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_mob",
+      "metadata": {
+        "files": [
+          "src/main/java/com/turtlemanpurple/turtlesandmore/command/TestMobCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "TestMobProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_mob_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/com/turtlemanpurple/turtlesandmore/procedures/TestMobProcedureProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "TurtleOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turtle_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/com/turtlemanpurple/turtlesandmore/block/TurtleOreBlock.java",
+          "src/main/resources/data/turmo/worldgen/placed_feature/turtle_ore.json",
+          "src/main/resources/data/turmo/loot_table/blocks/turtle_ore.json",
+          "src/main/resources/assets/turmo/items/turtle_ore.json",
+          "src/main/resources/assets/turmo/models/item/turtle_ore.json",
+          "src/main/resources/assets/turmo/blockstates/turtle_ore.json",
+          "src/main/resources/data/turmo/worldgen/feature/turtle_ore.json",
+          "src/main/resources/assets/turmo/models/block/turtle_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateTurtleOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_turtle_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/turmo/blockstates/deepslate_turtle_ore.json",
+          "src/main/resources/assets/turmo/models/item/deepslate_turtle_ore.json",
+          "src/main/resources/data/turmo/worldgen/feature/deepslate_turtle_ore.json",
+          "src/main/resources/data/turmo/loot_table/blocks/deepslate_turtle_ore.json",
+          "src/main/resources/assets/turmo/models/block/deepslate_turtle_ore.json",
+          "src/main/resources/assets/turmo/items/deepslate_turtle_ore.json",
+          "src/main/java/com/turtlemanpurple/turtlesandmore/block/DeepslateTurtleOreBlock.java",
+          "src/main/resources/data/turmo/worldgen/placed_feature/deepslate_turtle_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "TestMobBinding",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_mob_binding",
+      "metadata": {
+        "files": [
+          "src/main/java/com/turtlemanpurple/turtlesandmore/network/TestMobBindingMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "TurtleHammerEntitySwingsItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turtle_hammer_entity_swings_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/com/turtlemanpurple/turtlesandmore/procedures/TurtleHammerEntitySwingsItemProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "TurtleHammer",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turtle_hammer",
+      "metadata": {
+        "files": [
+          "src/main/java/com/turtlemanpurple/turtlesandmore/item/TurtleHammerItem.java",
+          "src/main/resources/assets/turmo/items/turtle_hammer.json",
+          "src/main/resources/assets/turmo/models/item/turtle_hammer.json"
+        ]
+      }
+    },
+    {
+      "name": "TeleportWand",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teleport_wand",
+      "metadata": {
+        "files": [
+          "src/main/java/com/turtlemanpurple/turtlesandmore/item/TeleportWandItem.java",
+          "src/main/resources/assets/turmo/models/item/teleport_wand.json",
+          "src/main/resources/assets/turmo/items/teleport_wand.json"
+        ]
+      }
+    },
+    {
+      "name": "TeleportWandRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teleport_wand_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/com/turtlemanpurple/turtlesandmore/procedures/TeleportWandRightclickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "TurtlePickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turtle_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/turmo/items/turtle_pickaxe.json",
+          "src/main/java/com/turtlemanpurple/turtlesandmore/item/TurtlePickaxeItem.java",
+          "src/main/resources/assets/turmo/models/item/turtle_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "Lightsaber",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightsaber",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/turmo/models/item/lightsaber.json",
+          "src/main/java/com/turtlemanpurple/turtlesandmore/item/LightsaberItem.java",
+          "src/main/resources/assets/turmo/items/lightsaber.json"
+        ]
+      }
+    },
+    {
+      "name": "KyberCrystal",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kyber_crystal",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/turmo/items/kyber_crystal.json",
+          "src/main/resources/assets/turmo/models/item/kyber_crystal.json",
+          "src/main/java/com/turtlemanpurple/turtlesandmore/item/KyberCrystalItem.java"
+        ]
+      }
+    },
+    {
+      "name": "LightsaberBlade",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightsaber_blade",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/turmo/items/lightsaber_blade.json",
+          "src/main/java/com/turtlemanpurple/turtlesandmore/item/LightsaberBladeItem.java",
+          "src/main/resources/assets/turmo/models/item/lightsaber_blade.json"
+        ]
+      }
+    },
+    {
+      "name": "LightsaberHilt",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightsaber_hilt",
+      "metadata": {
+        "files": [
+          "src/main/java/com/turtlemanpurple/turtlesandmore/item/LightsaberHiltItem.java",
+          "src/main/resources/assets/turmo/items/lightsaber_hilt.json",
+          "src/main/resources/assets/turmo/models/item/lightsaber_hilt.json"
+        ]
+      }
+    },
+    {
+      "name": "LightsaberHandle",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightsaber_handle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/turmo/models/item/lightsaber_handle.json",
+          "src/main/java/com/turtlemanpurple/turtlesandmore/item/LightsaberHandleItem.java",
+          "src/main/resources/assets/turmo/items/lightsaber_handle.json"
+        ]
+      }
+    },
+    {
+      "name": "LightsaberCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightsaber_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/turmo/recipe/lightsaber_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "TurtleShieldCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turtle_shield_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/turmo/recipe/turtle_shield_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "TurtleHammerCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turtle_hammer_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/turmo/recipe/turtle_hammer_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "TurtleStick",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turtle_stick",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/turmo/models/item/turtle_stick.json",
+          "src/main/resources/assets/turmo/items/turtle_stick.json",
+          "src/main/java/com/turtlemanpurple/turtlesandmore/item/TurtleStickItem.java"
+        ]
+      }
+    },
+    {
+      "name": "TeleportWandCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teleport_wand_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/turmo/recipe/teleport_wand_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "TurtlePickaxeCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turtle_pickaxe_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/turmo/recipe/turtle_pickaxe_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "TurtleUpgrade",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turtle_upgrade",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/turmo/items/turtle_upgrade.json",
+          "src/main/resources/assets/turmo/models/item/turtle_upgrade.json",
+          "src/main/java/com/turtlemanpurple/turtlesandmore/item/TurtleUpgradeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "KyberCrystalSmithing",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kyber_crystal_smithing",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/turmo/recipe/kyber_crystal_smithing.json"
+        ]
+      }
+    },
+    {
+      "name": "LightsaberBladeCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightsaber_blade_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/turmo/recipe/lightsaber_blade_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "LightsaberHiltCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightsaber_hilt_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/turmo/recipe/lightsaber_hilt_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "LightsaberHandleCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightsaber_handle_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/turmo/recipe/lightsaber_handle_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "TurtleStickCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turtle_stick_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/turmo/recipe/turtle_stick_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "TurtleUpgradeCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turtle_upgrade_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/turmo/recipe/turtle_upgrade_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "GiveItem",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "give_item",
+      "metadata": {
+        "files": [
+          "src/main/java/com/turtlemanpurple/turtlesandmore/command/GiveItemCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "GiveItemProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "give_item_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ],
+        "files": [
+          "src/main/java/com/turtlemanpurple/turtlesandmore/procedures/GiveItemProcedureProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "TurtlesAndMore",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turtles_and_more",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/turmo/models/item/turtles_and_more.json",
+          "src/main/java/com/turtlemanpurple/turtlesandmore/item/TurtlesAndMoreItem.java",
+          "src/main/resources/assets/turmo/items/turtles_and_more.json"
+        ]
+      }
+    },
+    {
+      "name": "TurtlesAndMoreItemIsCraftedSmelted",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turtles_and_more_item_is_crafted_smelted",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/com/turtlemanpurple/turtlesandmore/procedures/TurtlesAndMoreItemIsCraftedSmeltedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "TurtlesAndMoreTab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turtles_and_more_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "LightsaberBladeHeld",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightsaber_blade_held",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/turtlemanpurple/turtlesandmore/procedures/LightsaberBladeHeldProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "LightsaberBladeHeldDamage",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightsaber_blade_held_damage",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/turmo/damage_type/lightsaber_blade_held_damage.json"
+        ]
+      }
+    },
+    {
+      "name": "TurtleStone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turtle_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/turmo/models/item/turtle_stone.json",
+          "src/main/resources/assets/turmo/models/block/turtle_stone.json",
+          "src/main/resources/data/turmo/loot_table/blocks/turtle_stone.json",
+          "src/main/resources/assets/turmo/items/turtle_stone.json",
+          "src/main/resources/assets/turmo/blockstates/turtle_stone.json",
+          "src/main/java/com/turtlemanpurple/turtlesandmore/block/TurtleStoneBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "ShellTile",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shell_tile",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/turmo/loot_table/blocks/shell_tile.json",
+          "src/main/resources/assets/turmo/models/block/shell_tile.json",
+          "src/main/java/com/turtlemanpurple/turtlesandmore/block/ShellTileBlock.java",
+          "src/main/resources/assets/turmo/models/item/shell_tile.json",
+          "src/main/resources/assets/turmo/blockstates/shell_tile.json",
+          "src/main/resources/assets/turmo/items/shell_tile.json"
+        ]
+      }
+    },
+    {
+      "name": "AquaGlass",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aqua_glass",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/turmo/blockstates/aqua_glass.json",
+          "src/main/resources/assets/turmo/models/block/aqua_glass.json",
+          "src/main/java/com/turtlemanpurple/turtlesandmore/block/AquaGlassBlock.java",
+          "src/main/resources/assets/turmo/models/item/aqua_glass.json",
+          "src/main/resources/data/turmo/loot_table/blocks/aqua_glass.json",
+          "src/main/resources/assets/turmo/items/aqua_glass.json"
+        ]
+      }
+    },
+    {
+      "name": "GlowAlgae",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glow_algae",
+      "metadata": {
+        "files": [
+          "src/main/java/com/turtlemanpurple/turtlesandmore/block/GlowAlgaeBlock.java",
+          "src/main/resources/data/turmo/loot_table/blocks/glow_algae.json",
+          "src/main/resources/assets/turmo/items/glow_algae.json",
+          "src/main/resources/assets/turmo/models/item/glow_algae.json",
+          "src/main/resources/assets/turmo/blockstates/glow_algae.json",
+          "src/main/resources/assets/turmo/models/block/glow_algae.json"
+        ]
+      }
+    },
+    {
+      "name": "CoralColumn",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coral_column",
+      "metadata": {
+        "files": [
+          "src/main/java/com/turtlemanpurple/turtlesandmore/block/CoralColumnBlock.java",
+          "src/main/resources/assets/turmo/items/coral_column.json",
+          "src/main/resources/assets/turmo/models/block/coral_column.json",
+          "src/main/resources/assets/turmo/blockstates/coral_column.json",
+          "src/main/resources/assets/turmo/models/item/coral_column.json",
+          "src/main/resources/data/turmo/loot_table/blocks/coral_column.json"
+        ]
+      }
+    },
+    {
+      "name": "MysticSand",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mystic_sand",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/turmo/items/mystic_sand.json",
+          "src/main/resources/assets/turmo/models/item/mystic_sand.json",
+          "src/main/java/com/turtlemanpurple/turtlesandmore/block/MysticSandBlock.java",
+          "src/main/resources/assets/turmo/blockstates/mystic_sand.json",
+          "src/main/resources/data/turmo/loot_table/blocks/mystic_sand.json",
+          "src/main/resources/assets/turmo/models/block/mystic_sand.json"
+        ]
+      }
+    },
+    {
+      "name": "WaterfallBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waterfall_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/turmo/blockstates/waterfall_block.json",
+          "src/main/resources/assets/turmo/items/waterfall_block.json",
+          "src/main/resources/data/turmo/loot_table/blocks/waterfall_block.json",
+          "src/main/resources/assets/turmo/models/block/waterfall_block.json",
+          "src/main/java/com/turtlemanpurple/turtlesandmore/block/WaterfallBlockBlock.java",
+          "src/main/resources/assets/turmo/models/item/waterfall_block.json"
+        ]
+      }
+    },
+    {
+      "name": "TurtleTemple",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turtle_temple",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/turmo/worldgen/template_pool/turtle_temple.json",
+          "src/main/resources/data/turmo/worldgen/structure_set/turtle_temple.json",
+          "src/main/resources/data/turmo/worldgen/structure/turtle_temple.json"
+        ]
+      }
+    },
+    {
+      "name": "TurtleLands",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turtle_lands",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/turmo/worldgen/biome/turtle_lands.json",
+          "src/main/resources/data/turmo/worldgen/placed_feature/turtle_lands_tree.json",
+          "src/main/resources/data/turmo/worldgen/material_rule/turtle_lands_surface.json",
+          "src/main/java/com/turtlemanpurple/turtlesandmore/world/features/treedecorators/TurtleLandsTrunkDecorator.java",
+          "src/main/resources/data/turmo/worldgen/feature/turtle_lands_tree.json",
+          "src/main/java/com/turtlemanpurple/turtlesandmore/world/features/treedecorators/TurtleLandsLeaveDecorator.java"
+        ]
+      }
+    },
+    {
+      "name": "LightsaberCrafted",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightsaber_crafted",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/turmo/advancement/lightsaber_crafted.json"
+        ]
+      }
+    },
+    {
+      "name": "TurtleTree",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turtle_tree",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/turmo/worldgen/placed_feature/turtle_tree.json",
+          "src/main/resources/data/turmo/worldgen/feature/turtle_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "TurtleAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turtle_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/com/turtlemanpurple/turtlesandmore/item/TurtleAxeItem.java",
+          "src/main/resources/assets/turmo/models/item/turtle_axe.json",
+          "src/main/resources/assets/turmo/items/turtle_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "TurtleShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turtle_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/turmo/models/item/turtle_shovel.json",
+          "src/main/java/com/turtlemanpurple/turtlesandmore/item/TurtleShovelItem.java",
+          "src/main/resources/assets/turmo/items/turtle_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "TurtleHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turtle_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/com/turtlemanpurple/turtlesandmore/item/TurtleHoeItem.java",
+          "src/main/resources/assets/turmo/models/item/turtle_hoe.json",
+          "src/main/resources/assets/turmo/items/turtle_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "TurtlesAndMorePainting",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turtles_and_more_painting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/turmo/painting_variant/turtles_and_more_painting.json"
+        ]
+      }
+    },
+    {
+      "name": "TurtleAxeCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turtle_axe_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/turmo/recipe/turtle_axe_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "TurtleShovelCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turtle_shovel_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/turmo/recipe/turtle_shovel_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "TurtleHoeCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turtle_hoe_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/turmo/recipe/turtle_hoe_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "TurtleSwordStage1",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turtle_sword_stage_1",
+      "metadata": {
+        "files": [
+          "src/main/java/com/turtlemanpurple/turtlesandmore/item/TurtleSwordStage1Item.java",
+          "src/main/resources/assets/turmo/models/item/turtle_sword_stage_1.json",
+          "src/main/resources/assets/turmo/items/turtle_sword_stage_1.json"
+        ]
+      }
+    },
+    {
+      "name": "TurtleSwordStage2",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turtle_sword_stage_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/turmo/items/turtle_sword_stage_2.json",
+          "src/main/java/com/turtlemanpurple/turtlesandmore/item/TurtleSwordStage2Item.java",
+          "src/main/resources/assets/turmo/models/item/turtle_sword_stage_2.json"
+        ]
+      }
+    },
+    {
+      "name": "TurtleSwordStage3",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turtle_sword_stage_3",
+      "metadata": {
+        "files": [
+          "src/main/java/com/turtlemanpurple/turtlesandmore/item/TurtleSwordStage3Item.java",
+          "src/main/resources/assets/turmo/items/turtle_sword_stage_3.json",
+          "src/main/resources/assets/turmo/models/item/turtle_sword_stage_3.json"
+        ]
+      }
+    },
+    {
+      "name": "TurtleSwordStage4",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turtle_sword_stage_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/turmo/models/item/turtle_sword_stage_4.json",
+          "src/main/java/com/turtlemanpurple/turtlesandmore/item/TurtleSwordStage4Item.java",
+          "src/main/resources/assets/turmo/items/turtle_sword_stage_4.json"
+        ]
+      }
+    },
+    {
+      "name": "TurtleSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turtle_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/com/turtlemanpurple/turtlesandmore/item/TurtleSwordItem.java",
+          "src/main/resources/assets/turmo/models/item/turtle_sword.json",
+          "src/main/resources/assets/turmo/items/turtle_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "TurtleShard",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turtle_shard",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/turmo/items/turtle_shard.json",
+          "src/main/resources/assets/turmo/models/item/turtle_shard.json",
+          "src/main/java/com/turtlemanpurple/turtlesandmore/item/TurtleShardItem.java"
+        ]
+      }
+    },
+    {
+      "name": "TurtleSwordS1Crafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turtle_sword_s_1_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/turmo/recipe/turtle_sword_s_1_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "TurtleSwordS2Crafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turtle_sword_s_2_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/turmo/recipe/turtle_sword_s_2_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "TurtleSwordS3Crafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turtle_sword_s_3_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/turmo/recipe/turtle_sword_s_3_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "TurtleSwordS4Crafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turtle_sword_s_4_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/turmo/recipe/turtle_sword_s_4_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "TurtleSwordS5Crafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turtle_sword_s_5_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/turmo/recipe/turtle_sword_s_5_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "TurtleShardBrewing",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turtle_shard_brewing",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/turmo/recipe/brewing/splash_turtle_shard_brewing.json",
+          "src/main/resources/data/turmo/recipe/brewing/lingering_turtle_shard_brewing.json",
+          "src/main/resources/data/turmo/recipe/brewing/turtle_shard_brewing.json"
+        ]
+      }
+    },
+    {
+      "name": "TurtleArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turtle_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/turmo/equipment/turtle_armor.json",
+          "src/main/java/com/turtlemanpurple/turtlesandmore/item/TurtleArmorItem.java",
+          "src/main/java/com/turtlemanpurple/turtlesandmore/client/renderer/item/TurtleArmorArmor.java",
+          "src/main/resources/assets/turmo/items/turtle_armor_helmet.json",
+          "src/main/resources/assets/turmo/items/turtle_armor_boots.json",
+          "src/main/resources/assets/turmo/items/turtle_armor_leggings.json",
+          "src/main/resources/assets/turmo/models/item/turtle_armor_boots.json",
+          "src/main/resources/assets/turmo/items/turtle_armor_chestplate.json",
+          "src/main/resources/assets/turmo/models/item/turtle_armor_helmet.json",
+          "src/main/resources/assets/turmo/models/item/turtle_armor_chestplate.json",
+          "src/main/resources/assets/turmo/models/item/turtle_armor_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "CommandPad",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "command_pad",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/turmo/items/command_pad.json",
+          "src/main/java/com/turtlemanpurple/turtlesandmore/item/CommandPadItem.java",
+          "src/main/resources/assets/turmo/models/item/command_pad.json"
+        ]
+      }
+    },
+    {
+      "name": "CommandBlockCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "command_block_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/turmo/recipe/command_block_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "GodAppleCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "god_apple_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/turmo/recipe/god_apple_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "DragonEggCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_egg_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/turmo/recipe/dragon_egg_crafting.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:turmo:turtle_pickaxe_repair_items": [
+      "~TurtlePickaxe@CUSTOM:TurtleIngot"
+    ],
+    "ITEMS:turmo:lightsaber_repair_items": [
+      "~Lightsaber@CUSTOM:TurtlePickaxe"
+    ],
+    "ITEMS:turmo:turtle_axe_repair_items": [
+      "~TurtleAxe@CUSTOM:TurtleIngot"
+    ],
+    "ITEMS:turmo:turtle_shovel_repair_items": [
+      "~TurtleShovel@CUSTOM:TurtleIngot"
+    ],
+    "ITEMS:turmo:turtle_hoe_repair_items": [
+      "~TurtleHoe@CUSTOM:TurtleIngot"
+    ],
+    "ITEMS:turmo:turtle_sword_repair_items": [
+      "~TurtleSword@CUSTOM:TurtleShard"
+    ],
+    "ITEMS:turmo:turtle_armor_repair_items": [
+      "~TurtleArmor@CUSTOM:TurtleIngot"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~DeepslateTurtleOre@CUSTOM:DeepslateTurtleOre",
+      "~TurtleOre@CUSTOM:TurtleOre"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~DeepslateTurtleOre@CUSTOM:DeepslateTurtleOre",
+      "~TurtleOre@CUSTOM:TurtleOre"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~TurtlePickaxe@CUSTOM:TurtlePickaxe"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~TurtleSword@CUSTOM:TurtleSword",
+      "~Lightsaber@CUSTOM:Lightsaber"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~TurtleAxe@CUSTOM:TurtleAxe"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~TurtleShovel@CUSTOM:TurtleShovel"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~TurtleHoe@CUSTOM:TurtleHoe"
+    ],
+    "ITEMS:minecraft:head_armor": [
+      "~TurtleArmor@CUSTOM:TurtleArmor.helmet"
+    ],
+    "ITEMS:minecraft:chest_armor": [
+      "~TurtleArmor@CUSTOM:TurtleArmor.body"
+    ],
+    "ITEMS:minecraft:leg_armor": [
+      "~TurtleArmor@CUSTOM:TurtleArmor.legs"
+    ],
+    "ITEMS:minecraft:foot_armor": [
+      "~TurtleArmor@CUSTOM:TurtleArmor.boots"
+    ],
+    "PAINTING_VARIANTS:minecraft:placeable": [
+      "~TurtlesAndMorePainting@CUSTOM:TurtlesAndMorePainting"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.turmo.turtle_ingot": "Turtle Ingot",
+      "item.turmo.raw_turtle_ore": "Raw Turtle Ore",
+      "item.turmo.turtle_shield": "Turtle Shield",
+      "item.turmo.turtle_ore": "Turtle Ore",
+      "item.turmo.deepslate_turtle_ore": "Deepslate Turtle Ore",
+      "key.turmo.test_mob_binding": "Test Mob Binding",
+      "item.turmo.turtle_hammer": "Turtle Hammer",
+      "item.turmo.teleport_wand": "Teleport Wand",
+      "item.turmo.turtle_pickaxe": "Turtle Pickaxe",
+      "item.turmo.lightsaber": "Lightsaber",
+      "item.turmo.kyber_crystal": "Kyber Crystal",
+      "item.turmo.lightsaber_blade": "Lightsaber Blade",
+      "item.turmo.lightsaber_hilt": "Lightsaber Hilt",
+      "item.turmo.lightsaber_handle": "Lightsaber Handle",
+      "item.turmo.turtle_stick": "Turtle Stick",
+      "item.turmo.turtle_upgrade": "Turtle Upgrade",
+      "item.turmo.turtles_and_more": "Turtles And More",
+      "item_group.turmo.turtles_and_more_tab": "Turtles And More",
+      "death.attack.lightsaber_blade_held_damage.player": "Padawan %1$s died whilst trying to escape %2$s",
+      "death.attack.lightsaber_blade_held_damage": "%1$s died from trying to hold their lightsaber by the blade",
+      "death.attack.lightsaber_blade_held_damage.item": "Padawan %1$s was killed by %2$s using %3$s",
+      "item.turmo.turtle_stone": "Turtle Stone",
+      "item.turmo.shell_tile": "Shell Tile",
+      "item.turmo.aqua_glass": "Aqua Glass",
+      "item.turmo.glow_algae": "Glow Algae",
+      "item.turmo.coral_column": "Coral Column",
+      "item.turmo.mystic_sand": "Mystic Sand",
+      "item.turmo.waterfall_block": "Waterfall Block",
+      "biome.turmo.turtle_lands": "The Turtle Lands",
+      "advancements.lightsaber_crafted.descr": "Craft a lightsaber",
+      "advancements.lightsaber_crafted.title": "Lightsaber Crafted",
+      "item.turmo.turtle_axe": "Turtle Axe",
+      "item.turmo.turtle_shovel": "Turtle Shovel",
+      "item.turmo.turtle_hoe": "Turtle Hoe",
+      "painting.turmo.turtles_and_more_painting.title": "§eTurtles And More",
+      "painting.turmo.turtles_and_more_painting.author": "§7TurtleManPurple",
+      "item.turmo.turtle_sword_stage_1": "Turtle Sword Stage 1",
+      "item.turmo.turtle_sword_stage_2": "Turtle Sword Stage 2",
+      "item.turmo.turtle_sword_stage_3": "Turtle Sword Stage 3",
+      "item.turmo.turtle_sword_stage_4": "Turtle Sword Stage 4",
+      "item.turmo.turtle_sword": "Turtle Sword",
+      "item.turmo.turtle_shard": "Turtle Shard",
+      "item.turmo.turtle_armor_helmet": "Turtle Helmet",
+      "item.turmo.turtle_armor_chestplate": "Turtle Chestplate",
+      "item.turmo.turtle_armor_boots": "Turtle Boots",
+      "item.turmo.turtle_armor_leggings": "Turtle Leggings",
+      "item.turmo.command_pad": "Command Pad"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/com/turtlemanpurple/turtlesandmore/init/TurmoModCommands.java",
+      "src/main/java/com/turtlemanpurple/turtlesandmore/init/TurmoModKeyMappings.java",
+      "src/main/java/com/turtlemanpurple/turtlesandmore/init/TurmoModKeyMappingsServer.java",
+      "src/main/java/com/turtlemanpurple/turtlesandmore/mixin/BiomeSourcePresetMixin.java",
+      "src/main/java/com/turtlemanpurple/turtlesandmore/init/TurmoModBiomes.java",
+      "src/main/java/com/turtlemanpurple/turtlesandmore/init/TurmoModBiomeDecorators.java",
+      "src/main/java/com/turtlemanpurple/turtlesandmore/mixin/NoiseGeneratorSettingsMixin.java",
+      "src/main/java/com/turtlemanpurple/turtlesandmore/init/TurmoModArmorModels.java",
+      "src/main/java/com/turtlemanpurple/turtlesandmore/mixin/PiglinAiMixin.java",
+      "src/main/java/com/turtlemanpurple/turtlesandmore/mixin/EquipmentLayerRendererMixin.java",
+      "src/main/java/com/turtlemanpurple/turtlesandmore/mixin/ServerPlayerMixin.java",
+      "src/main/java/com/turtlemanpurple/turtlesandmore/mixin/RepairItemRecipeMixin.java",
+      "src/main/java/com/turtlemanpurple/turtlesandmore/init/TurmoModItems.java",
+      "src/main/java/com/turtlemanpurple/turtlesandmore/init/TurmoModBlocks.java",
+      "src/main/java/com/turtlemanpurple/turtlesandmore/init/TurmoModFeatures.java",
+      "src/main/java/com/turtlemanpurple/turtlesandmore/mixin/CommandsMixin.java",
+      "src/main/java/com/turtlemanpurple/turtlesandmore/init/TurmoModTabs.java",
+      "src/main/java/com/turtlemanpurple/turtlesandmore/mixin/ItemStackMixin.java",
+      "src/main/java/com/turtlemanpurple/turtlesandmore/event/LivingEntityEvents.java",
+      "src/main/java/com/turtlemanpurple/turtlesandmore/event/MiscEvents.java",
+      "src/main/resources/META-INF/turmo.classtweaker",
+      "src/main/resources/fabric.mod.json",
+      "src/main/java/com/turtlemanpurple/turtlesandmore/mixin/BoneMealItemMixin.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/com/turtlemanpurple/turtlesandmore/mixin/PlayerMixin.java",
+      "src/main/java/com/turtlemanpurple/turtlesandmore/event/ItemEvents.java",
+      "src/main/java/com/turtlemanpurple/turtlesandmore/mixin/LivingEntityMixin.java",
+      "src/main/java/com/turtlemanpurple/turtlesandmore/TurmoMod.java",
+      "src/main/java/com/turtlemanpurple/turtlesandmore/TurmoModClient.java",
+      "src/main/java/com/turtlemanpurple/turtlesandmore/event/BlockEvents.java",
+      "src/main/resources/turmo.mixins.json",
+      "src/main/java/com/turtlemanpurple/turtlesandmore/mixin/ExperienceOrbMixin.java",
+      "src/main/java/com/turtlemanpurple/turtlesandmore/mixin/BlockItemMixin.java",
+      "src/main/java/com/turtlemanpurple/turtlesandmore/event/PlayerEvents.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "turmo",
+    "modName": "TurtlesAndMore",
+    "version": "3.0",
+    "author": "TurtleManPurple",
+    "license": "All Rights Reserved",
+    "serverSideOnly": false,
+    "modPicture": "turtles_and_more",
+    "modIcon": "turtles_and_more",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-26.3",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about Thanks to iD Tech summer camps for the original idea! - https://www.idtech.com",
+    "modElementsPackage": "com.turtlemanpurple.turtlesandmore"
+  },
+  "mcreatorVersion": 202600341718
+}

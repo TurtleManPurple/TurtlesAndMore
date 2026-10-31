@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "turmo:custom_armor_layer_1"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "turmo:custom_armor_layer_2"
+      }
+    ]
+  }
+}

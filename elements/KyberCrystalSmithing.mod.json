@@ -1,0 +1,21 @@
+{
+  "_fv": 91,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smithingInputStack": "Items.AMETHYST_SHARD",
+    "smithingInputAdditionStack": "Items.NETHER_STAR",
+    "smithingInputTemplateStack": "CUSTOM:TurtleUpgrade",
+    "smithingReturnStack": "CUSTOM:KyberCrystal",
+    "name": "kyber_crystal_smithing",
+    "namespace": "mod"
+  }
+}

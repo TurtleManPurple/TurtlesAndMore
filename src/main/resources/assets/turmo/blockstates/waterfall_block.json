@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "turmo:block/waterfall_block"
+    }
+  }
+}

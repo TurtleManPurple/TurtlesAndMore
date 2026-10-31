@@ -1,0 +1,10 @@
+{
+  "_fv": 91,
+  "_type": "command",
+  "definition": {
+    "commandName": "testmob",
+    "type": "STANDARD",
+    "permissionLevel": "No requirement",
+    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"206\" y=\"29\"><next><block type=\"call_procedure\"><field name=\"procedure\">TestMobProcedure</field></block></next></block></xml>"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "turmo:block/waterfall_block",
+    "particle": "turmo:block/waterfall_block"
+  }
+}

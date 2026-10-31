@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "turmo:turtle_temple",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 25,
+    "separation": 10,
+    "salt": 1889890009
+  }
+}

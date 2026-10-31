@@ -1,0 +1,7 @@
+{
+  "parent": "turmo:custom/lightsaberblade",
+  "textures": {
+    "0": "turmo:block/lightsaberblade",
+    "particle": "turmo:item/lightsaberblade"
+  }
+}

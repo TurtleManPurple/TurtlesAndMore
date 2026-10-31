@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "turmo:block/shell_tile",
+    "particle": "turmo:block/shell_tile"
+  }
+}

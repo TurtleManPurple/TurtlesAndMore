@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "aca"
+  ],
+  "key": {
+    "a": "minecraft:ender_pearl",
+    "b": "minecraft:redstone_block",
+    "c": "turmo:turtle_stick"
+  },
+  "result": {
+    "id": "turmo:teleport_wand",
+    "count": 1
+  }
+}

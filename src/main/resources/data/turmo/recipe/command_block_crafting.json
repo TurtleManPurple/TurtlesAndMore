@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": "minecraft:redstone_block",
+    "b": "turmo:command_pad",
+    "c": "minecraft:totem_of_undying"
+  },
+  "result": {
+    "id": "minecraft:command_block",
+    "count": 1
+  }
+}

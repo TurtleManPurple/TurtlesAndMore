@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "turmo:item/raw_turtle_ore"
+  }
+}

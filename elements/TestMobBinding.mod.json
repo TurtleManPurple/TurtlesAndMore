@@ -1,0 +1,10 @@
+{
+  "_fv": 91,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "F7",
+    "keyBindingName": "Test Mob Binding",
+    "keyBindingCategoryKey": "creative",
+    "onKeyPressed": "TestMobProcedure"
+  }
+}

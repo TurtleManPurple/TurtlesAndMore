@@ -1,0 +1,29 @@
+{
+  "_fv": 91,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 2,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "Items.DRAGON_BREATH",
+      "Items.TOTEM_OF_UNDYING",
+      "Items.DRAGON_BREATH",
+      "Items.ELYTRA",
+      "Blocks.DRAGON_EGG",
+      "Items.ELYTRA",
+      "Items.DRAGON_BREATH",
+      "Items.TOTEM_OF_UNDYING",
+      "Items.DRAGON_BREATH"
+    ],
+    "recipeReturnStack": "Blocks.DRAGON_EGG",
+    "name": "dragon_egg_crafting",
+    "namespace": "mod"
+  }
+}

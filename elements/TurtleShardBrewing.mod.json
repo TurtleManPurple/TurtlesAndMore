@@ -1,0 +1,20 @@
+{
+  "_fv": 91,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Brewing",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "brewingInputStack": "POTION:TURTLE_MASTER",
+    "brewingIngredientStack": "Items.SCUTE",
+    "brewingReturnStack": "CUSTOM:TurtleShard",
+    "name": "turtle_shard_brewing",
+    "namespace": "mod"
+  }
+}

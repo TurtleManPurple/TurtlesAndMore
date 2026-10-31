@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "turmo:turtle_upgrade",
+  "base": "minecraft:amethyst_shard",
+  "addition": "minecraft:nether_star",
+  "result": {
+    "id": "turmo:kyber_crystal"
+  }
+}

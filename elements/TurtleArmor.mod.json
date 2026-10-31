@@ -1,0 +1,105 @@
+{
+  "_fv": 91,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "turtlehelm",
+    "enableBody": true,
+    "textureBody": "turtlechest",
+    "enableLeggings": true,
+    "textureLeggings": "turtlelegs",
+    "enableBoots": true,
+    "textureBoots": "turtlefeet",
+    "creativeTabs": [
+      "COMBAT",
+      "CUSTOM:TurtlesAndMoreTab"
+    ],
+    "armorTextureFile": "custom_armor",
+    "helmetName": "Turtle Helmet",
+    "bodyName": "Turtle Chestplate",
+    "leggingsName": "Turtle Leggings",
+    "bootsName": "Turtle Boots",
+    "helmetSpecialInformation": {
+      "fixedValue": []
+    },
+    "bodySpecialInformation": {
+      "fixedValue": []
+    },
+    "leggingsSpecialInformation": {
+      "fixedValue": []
+    },
+    "bootsSpecialInformation": {
+      "fixedValue": []
+    },
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetTranslucency": false,
+    "bodyTranslucency": false,
+    "leggingsTranslucency": false,
+    "bootsTranslucency": false,
+    "helmetImmuneToFire": true,
+    "bodyImmuneToFire": true,
+    "leggingsImmuneToFire": true,
+    "bootsImmuneToFire": true,
+    "helmetGlowCondition": {
+      "fixedValue": false
+    },
+    "bodyGlowCondition": {
+      "fixedValue": false
+    },
+    "leggingsGlowCondition": {
+      "fixedValue": false
+    },
+    "bootsGlowCondition": {
+      "fixedValue": false
+    },
+    "helmetPiglinNeutral": {
+      "fixedValue": true
+    },
+    "bodyPiglinNeutral": {
+      "fixedValue": true
+    },
+    "leggingsPiglinNeutral": {
+      "fixedValue": true
+    },
+    "bootsPiglinNeutral": {
+      "fixedValue": true
+    },
+    "maxDamage": 999,
+    "damageValueHelmet": 999,
+    "damageValueBody": 999,
+    "damageValueLeggings": 999,
+    "damageValueBoots": 999,
+    "enchantability": 99999,
+    "toughness": 999.0,
+    "knockbackResistance": 5.0,
+    "equipSound": "",
+    "repairItems": [
+      "CUSTOM:TurtleIngot"
+    ],
+    "rarity": "COMMON",
+    "attributeModifiers": []
+  }
+}

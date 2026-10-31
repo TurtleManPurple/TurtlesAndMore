@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "turmo:block/turtleoreblock",
+    "up": "turmo:block/turtleoreblock",
+    "north": "turmo:block/turtleoreblock",
+    "east": "turmo:block/turtleoreblock",
+    "south": "turmo:block/turtleoreblock",
+    "west": "turmo:block/turtleoreblock",
+    "particle": "turmo:block/turtleoreblock"
+  }
+}

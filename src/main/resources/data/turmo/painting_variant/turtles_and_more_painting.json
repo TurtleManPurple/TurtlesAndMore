@@ -1,0 +1,13 @@
+{
+  "asset_id": "turmo:turtles_and_more_painting",
+  "height": 5,
+  "width": 5,
+  "title": {
+    "color": "yellow",
+    "translate": "painting.turmo.turtles_and_more_painting.title"
+  },
+  "author": {
+    "color": "gray",
+    "translate": "painting.turmo.turtles_and_more_painting.author"
+  }
+}

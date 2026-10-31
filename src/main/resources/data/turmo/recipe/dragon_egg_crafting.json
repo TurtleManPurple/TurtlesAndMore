@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": "minecraft:dragon_breath",
+    "b": "minecraft:totem_of_undying",
+    "c": "minecraft:elytra",
+    "d": "minecraft:dragon_egg"
+  },
+  "result": {
+    "id": "minecraft:dragon_egg",
+    "count": 2
+  }
+}

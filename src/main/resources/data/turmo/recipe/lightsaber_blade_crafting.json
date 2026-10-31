@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": "minecraft:lime_stained_glass_pane",
+    "b": "turmo:kyber_crystal"
+  },
+  "result": {
+    "id": "turmo:lightsaber_blade",
+    "count": 1
+  }
+}

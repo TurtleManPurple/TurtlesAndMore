@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": "turmo:turtle_shard",
+    "b": "turmo:turtle_stick"
+  },
+  "result": {
+    "id": "turmo:turtle_sword_stage_1",
+    "count": 1
+  }
+}

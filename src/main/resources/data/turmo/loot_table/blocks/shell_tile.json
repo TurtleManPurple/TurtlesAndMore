@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "turmo:blocks/shell_tile",
+  "pools": [
+    {
+      "rolls": 1,
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "turmo:shell_tile"
+        }
+      ]
+    }
+  ]
+}

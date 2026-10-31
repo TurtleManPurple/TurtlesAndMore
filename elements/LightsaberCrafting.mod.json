@@ -1,0 +1,29 @@
+{
+  "_fv": 91,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:KyberCrystal",
+      "CUSTOM:LightsaberBlade",
+      "CUSTOM:KyberCrystal",
+      "CUSTOM:KyberCrystal",
+      "CUSTOM:LightsaberHandle",
+      "CUSTOM:KyberCrystal",
+      "CUSTOM:KyberCrystal",
+      "CUSTOM:LightsaberHilt",
+      "CUSTOM:KyberCrystal"
+    ],
+    "recipeReturnStack": "CUSTOM:Lightsaber",
+    "name": "lightsaber_crafting",
+    "namespace": "mod"
+  }
+}

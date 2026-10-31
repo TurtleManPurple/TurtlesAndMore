@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aaa",
+    " a "
+  ],
+  "key": {
+    "a": "#minecraft:planks",
+    "b": "turmo:turtle_ingot"
+  },
+  "result": {
+    "id": "turmo:turtle_shield",
+    "count": 1
+  }
+}

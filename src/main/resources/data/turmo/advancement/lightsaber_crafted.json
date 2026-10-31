@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "turmo:lightsaber"
+    },
+    "title": {
+      "translate": "advancements.lightsaber_crafted.title"
+    },
+    "description": {
+      "translate": "advancements.lightsaber_crafted.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "lightsaber_crafted_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "turmo:lightsaber",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "parent": "minecraft:story/root"
+}

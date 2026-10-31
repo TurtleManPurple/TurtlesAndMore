@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "turmo",
+  "version": "3.0",
+  "name": "TurtlesAndMore",
+  "authors": [
+    "TurtleManPurple"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "All Rights Reserved",
+  "icon": "logo.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.turtlemanpurple.turtlesandmore.TurmoMod"
+    ],
+    "client": [
+      "com.turtlemanpurple.turtlesandmore.TurmoModClient"
+    ]
+  },
+  "mixins": [
+    "turmo.mixins.json"
+  ],
+  "accessWidener": "META-INF/turmo.classtweaker",
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

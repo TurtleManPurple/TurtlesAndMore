@@ -1,0 +1,13 @@
+# MCreator & Java Cache
+.eclipse/
+.mcreator/
+run/
+
+# Gradle Build Folders
+.gradle/
+build/
+gradle/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db

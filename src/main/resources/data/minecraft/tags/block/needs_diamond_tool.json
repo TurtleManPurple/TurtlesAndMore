@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "turmo:deepslate_turtle_ore",
+    "turmo:turtle_ore"
+  ]
+}

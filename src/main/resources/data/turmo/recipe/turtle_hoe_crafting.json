@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "b ",
+    "b "
+  ],
+  "key": {
+    "a": "turmo:turtle_ingot",
+    "b": "turmo:turtle_stick"
+  },
+  "result": {
+    "id": "turmo:turtle_hoe",
+    "count": 1
+  }
+}

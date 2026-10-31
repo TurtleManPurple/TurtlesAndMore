@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "turmo:block/coral_column",
+    "particle": "turmo:block/coral_column"
+  }
+}

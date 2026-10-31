@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:brewing",
+  "input": {
+    "item": "minecraft:splash_potion",
+    "potion_contents": {
+      "potions": "minecraft:turtle_master"
+    }
+  },
+  "reagent": {
+    "item": "minecraft:turtle_scute"
+  },
+  "output": {
+    "id": "turmo:turtle_shard"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "_fv": 91,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "Blocks.REDSTONE_BLOCK",
+      "CUSTOM:CommandPad",
+      "Blocks.REDSTONE_BLOCK",
+      "CUSTOM:CommandPad",
+      "Items.TOTEM_OF_UNDYING",
+      "CUSTOM:CommandPad",
+      "Blocks.REDSTONE_BLOCK",
+      "CUSTOM:CommandPad",
+      "Blocks.REDSTONE_BLOCK"
+    ],
+    "recipeReturnStack": "Blocks.COMMAND_BLOCK",
+    "name": "command_block_crafting",
+    "namespace": "mod"
+  }
+}
