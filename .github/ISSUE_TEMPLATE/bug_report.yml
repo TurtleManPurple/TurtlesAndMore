@@ -62,7 +62,8 @@ body:
       label: Details
       description: To understand the issue, we need some details of your setup & system
       placeholder: |
-        Loader version: [[MC_VERSION]-[FORGE_MAJOR].[FORGE_MINOR].[FORGE_PATCH] / [MC_MAJOR].[MC_MINOR].[MC_PATCH_OFFSET].[NEO_BUILD] / [LOADER_MAJOR].[LOADER_MINOR].[LOADER_PATCH]]
+        Minecraft Version: 1.21.1
+        Loader Version: Fabric 0.16.9
     validations:
       required: true
   - type: textarea
