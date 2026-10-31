@@ -1,5 +1,5 @@
 # TurtlesAndMore
-This mod adds a vast amount of turtle related items and blocks! Thank you to Mcreator and Goldorion, _Spectrall, and NerdyPuzzle's AMAZING Fabric Generator for making this possible, iD Tech camps for the original version and El LaVerdiere
+This mod adds a vast amount of turtle related items and blocks! Thank you to MCreator and [Goldorion](https://github.com/Goldorion), [_Spectrall](https://github.com/Spectrall368), and [NerdyPuzzle](https://github.com/NerdyPuzzle)'s AMAZING Fabric Generator for making this possible, iD Tech camps for the original version and El LaVerdiere
 
 ---
 
